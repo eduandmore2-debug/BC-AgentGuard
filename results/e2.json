@@ -1,0 +1,43 @@
+{
+ "n_tools": 330,
+ "mutations": {
+  "M1 hidden instruction in description": [
+   330,
+   330
+  ],
+  "M2 poisoned parameter description": [
+   330,
+   330
+  ],
+  "M3 shadow (covert) parameter": [
+   330,
+   330
+  ],
+  "M4 rug-pull, 1-character change": [
+   330,
+   330
+  ],
+  "M5 tampered return schema": [
+   330,
+   330
+  ]
+ },
+ "benign_reserialization_false_positives": [
+  0,
+  330
+ ],
+ "raw_hash_false_positives": [
+  330,
+  330
+ ],
+ "forged_registration_accepted": false,
+ "verify_us": {
+  "median": 6.848,
+  "p95": 11.664,
+  "n": 6600
+ },
+ "manifest_bytes": {
+  "median": 777.0,
+  "max": 2749
+ }
+}

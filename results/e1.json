@@ -1,0 +1,410 @@
+{
+ "base|P0_none": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    170,
+    170
+   ],
+   "all": [
+    1054,
+    1054
+   ],
+   "dh": [
+    510,
+    510
+   ],
+   "dh|Financial Harm": [
+    153,
+    153
+   ],
+   "dh|Data Security Harm": [
+    187,
+    187
+   ],
+   "ds|Physical Data": [
+    187,
+    187
+   ],
+   "ds": [
+    544,
+    544
+   ],
+   "ds|Financial Data": [
+    102,
+    102
+   ],
+   "ds|Others": [
+    255,
+    255
+   ]
+  },
+  "decisions": {
+   "ALLOW": 1598
+  }
+ },
+ "base|P1_toolkit": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    4,
+    1054
+   ],
+   "dh": [
+    4,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    4,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1050,
+   "ALLOW": 13
+  }
+ },
+ "base|P2_toolkit_gated": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    0,
+    1054
+   ],
+   "dh": [
+    0,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    0,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1049,
+   "HOLD_FOR_APPROVAL": 5,
+   "ALLOW": 8
+  }
+ },
+ "base|P3_least_privilege": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    0,
+    1054
+   ],
+   "dh": [
+    0,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    0,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1054,
+   "ALLOW": 1
+  }
+ },
+ "enhanced|P0_none": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    170,
+    170
+   ],
+   "all": [
+    1054,
+    1054
+   ],
+   "dh": [
+    510,
+    510
+   ],
+   "dh|Financial Harm": [
+    153,
+    153
+   ],
+   "dh|Data Security Harm": [
+    187,
+    187
+   ],
+   "ds|Physical Data": [
+    187,
+    187
+   ],
+   "ds": [
+    544,
+    544
+   ],
+   "ds|Financial Data": [
+    102,
+    102
+   ],
+   "ds|Others": [
+    255,
+    255
+   ]
+  },
+  "decisions": {
+   "ALLOW": 1598
+  }
+ },
+ "enhanced|P1_toolkit": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    4,
+    1054
+   ],
+   "dh": [
+    4,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    4,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1050,
+   "ALLOW": 13
+  }
+ },
+ "enhanced|P2_toolkit_gated": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    0,
+    1054
+   ],
+   "dh": [
+    0,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    0,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1049,
+   "HOLD_FOR_APPROVAL": 5,
+   "ALLOW": 8
+  }
+ },
+ "enhanced|P3_least_privilege": {
+  "n": 1054,
+  "legit_allowed": 1054,
+  "asr": {
+   "dh|Physical Harm": [
+    0,
+    170
+   ],
+   "all": [
+    0,
+    1054
+   ],
+   "dh": [
+    0,
+    510
+   ],
+   "dh|Financial Harm": [
+    0,
+    153
+   ],
+   "dh|Data Security Harm": [
+    0,
+    187
+   ],
+   "ds|Physical Data": [
+    0,
+    187
+   ],
+   "ds": [
+    0,
+    544
+   ],
+   "ds|Financial Data": [
+    0,
+    102
+   ],
+   "ds|Others": [
+    0,
+    255
+   ]
+  },
+  "decisions": {
+   "DENY_OUT_OF_SCOPE": 1054,
+   "ALLOW": 1
+  }
+ },
+ "avg_scope_size": {
+  "P0_none": 330.0,
+  "P1_toolkit": 9.588235294117647,
+  "P2_toolkit_gated": 9.588235294117647,
+  "P3_least_privilege": 1.0
+ },
+ "stress_intra_toolkit": {
+  "P0_none": {
+   "n": 146,
+   "allow": 146,
+   "hold": 0,
+   "deny": 0,
+   "side_effect_n": 92,
+   "side_effect_allow": 92
+  },
+  "P1_toolkit": {
+   "n": 146,
+   "allow": 146,
+   "hold": 0,
+   "deny": 0,
+   "side_effect_n": 92,
+   "side_effect_allow": 92
+  },
+  "P2_toolkit_gated": {
+   "n": 146,
+   "allow": 54,
+   "hold": 92,
+   "deny": 0,
+   "side_effect_n": 92,
+   "side_effect_allow": 0
+  },
+  "P3_least_privilege": {
+   "n": 146,
+   "allow": 0,
+   "hold": 0,
+   "deny": 146,
+   "side_effect_n": 92,
+   "side_effect_allow": 0
+  }
+ }
+}

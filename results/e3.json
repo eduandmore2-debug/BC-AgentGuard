@@ -1,0 +1,306 @@
+{
+ "platform": {
+  "python": "3.13.18",
+  "machine": "x86_64",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+  "cores": 2
+ },
+ "gateway_us": {
+  "decision_only": {
+   "median": 7.5295,
+   "p95": 11.153
+  },
+  "decision_plus_signed_audit": {
+   "median": 50.32,
+   "p95": 90.579
+  }
+ },
+ "consensus": [
+  {
+   "N": 4,
+   "f": 1,
+   "batch": 50,
+   "commit_s_sequential": 0.015872023000042645,
+   "commit_s_per_validator": 0.003968005750010661,
+   "tps_sequential": 3150.197047967084,
+   "tps_parallel_est": 12600.788191868336,
+   "block_bytes": 17974
+  },
+  {
+   "N": 4,
+   "f": 1,
+   "batch": 100,
+   "commit_s_sequential": 0.03156068100008724,
+   "commit_s_per_validator": 0.00789017025002181,
+   "tps_sequential": 3168.499437630119,
+   "tps_parallel_est": 12673.997750520475,
+   "block_bytes": 35559
+  },
+  {
+   "N": 4,
+   "f": 1,
+   "batch": 250,
+   "commit_s_sequential": 0.07696468799997547,
+   "commit_s_per_validator": 0.019241171999993867,
+   "tps_sequential": 3248.242882503203,
+   "tps_parallel_est": 12992.971530012812,
+   "block_bytes": 88287
+  },
+  {
+   "N": 4,
+   "f": 1,
+   "batch": 500,
+   "commit_s_sequential": 0.14367182299997694,
+   "commit_s_per_validator": 0.035917955749994235,
+   "tps_sequential": 3480.1535162540554,
+   "tps_parallel_est": 13920.614065016222,
+   "block_bytes": 176113
+  },
+  {
+   "N": 4,
+   "f": 1,
+   "batch": 1000,
+   "commit_s_sequential": 0.28944628499993996,
+   "commit_s_per_validator": 0.07236157124998499,
+   "tps_sequential": 3454.872464506523,
+   "tps_parallel_est": 13819.489858026092,
+   "block_bytes": 351993
+  },
+  {
+   "N": 7,
+   "f": 2,
+   "batch": 50,
+   "commit_s_sequential": 0.030202509999980975,
+   "commit_s_per_validator": 0.0043146442857115675,
+   "tps_sequential": 1655.4915468956551,
+   "tps_parallel_est": 11588.440828269588,
+   "block_bytes": 18137
+  },
+  {
+   "N": 7,
+   "f": 2,
+   "batch": 100,
+   "commit_s_sequential": 0.06388229800006684,
+   "commit_s_per_validator": 0.00912604257143812,
+   "tps_sequential": 1565.3788785102154,
+   "tps_parallel_est": 10957.652149571508,
+   "block_bytes": 35721
+  },
+  {
+   "N": 7,
+   "f": 2,
+   "batch": 250,
+   "commit_s_sequential": 0.12795753100010643,
+   "commit_s_per_validator": 0.018279647285729488,
+   "tps_sequential": 1953.7732405902086,
+   "tps_parallel_est": 13676.412684131461,
+   "block_bytes": 88453
+  },
+  {
+   "N": 7,
+   "f": 2,
+   "batch": 500,
+   "commit_s_sequential": 0.25146671699997114,
+   "commit_s_per_validator": 0.03592381671428159,
+   "tps_sequential": 1988.3347027593213,
+   "tps_parallel_est": 13918.34291931525,
+   "block_bytes": 176321
+  },
+  {
+   "N": 7,
+   "f": 2,
+   "batch": 1000,
+   "commit_s_sequential": 0.49544829599994955,
+   "commit_s_per_validator": 0.0707783279999928,
+   "tps_sequential": 2018.3740827723057,
+   "tps_parallel_est": 14128.618579406138,
+   "block_bytes": 352051
+  },
+  {
+   "N": 10,
+   "f": 3,
+   "batch": 50,
+   "commit_s_sequential": 0.04599549700003536,
+   "commit_s_per_validator": 0.004599549700003536,
+   "tps_sequential": 1087.0629357469834,
+   "tps_parallel_est": 10870.629357469834,
+   "block_bytes": 18275
+  },
+  {
+   "N": 10,
+   "f": 3,
+   "batch": 100,
+   "commit_s_sequential": 0.0783719989999554,
+   "commit_s_per_validator": 0.00783719989999554,
+   "tps_sequential": 1275.9659224726029,
+   "tps_parallel_est": 12759.659224726029,
+   "block_bytes": 35831
+  },
+  {
+   "N": 10,
+   "f": 3,
+   "batch": 250,
+   "commit_s_sequential": 0.18865168799993626,
+   "commit_s_per_validator": 0.018865168799993625,
+   "tps_sequential": 1325.1935492890182,
+   "tps_parallel_est": 13251.935492890181,
+   "block_bytes": 88602
+  },
+  {
+   "N": 10,
+   "f": 3,
+   "batch": 500,
+   "commit_s_sequential": 0.3890168430000358,
+   "commit_s_per_validator": 0.03890168430000358,
+   "tps_sequential": 1285.2913928972325,
+   "tps_parallel_est": 12852.913928972323,
+   "block_bytes": 176453
+  },
+  {
+   "N": 10,
+   "f": 3,
+   "batch": 1000,
+   "commit_s_sequential": 0.7527931609999996,
+   "commit_s_per_validator": 0.07527931609999997,
+   "tps_sequential": 1328.3861381944735,
+   "tps_parallel_est": 13283.861381944735,
+   "block_bytes": 352270
+  },
+  {
+   "N": 13,
+   "f": 4,
+   "batch": 50,
+   "commit_s_sequential": 0.06287112600000455,
+   "commit_s_per_validator": 0.004836240461538812,
+   "tps_sequential": 795.2776287161834,
+   "tps_parallel_est": 10338.609173310382,
+   "block_bytes": 18411
+  },
+  {
+   "N": 13,
+   "f": 4,
+   "batch": 100,
+   "commit_s_sequential": 0.11007607999999891,
+   "commit_s_per_validator": 0.008467390769230686,
+   "tps_sequential": 908.4625833332817,
+   "tps_parallel_est": 11810.013583332662,
+   "block_bytes": 35987
+  },
+  {
+   "N": 13,
+   "f": 4,
+   "batch": 250,
+   "commit_s_sequential": 0.25694829500002925,
+   "commit_s_per_validator": 0.019765253461540712,
+   "tps_sequential": 972.958392270988,
+   "tps_parallel_est": 12648.459099522843,
+   "block_bytes": 88733
+  },
+  {
+   "N": 13,
+   "f": 4,
+   "batch": 500,
+   "commit_s_sequential": 0.48531357099989236,
+   "commit_s_per_validator": 0.03733181315383787,
+   "tps_sequential": 1030.2617315436887,
+   "tps_parallel_est": 13393.402510067954,
+   "block_bytes": 176578
+  },
+  {
+   "N": 13,
+   "f": 4,
+   "batch": 1000,
+   "commit_s_sequential": 0.9702873100000033,
+   "commit_s_per_validator": 0.07463748538461565,
+   "tps_sequential": 1030.6225688966256,
+   "tps_parallel_est": 13398.093395656131,
+   "block_bytes": 352344
+  },
+  {
+   "N": 16,
+   "f": 5,
+   "batch": 50,
+   "commit_s_sequential": 0.08169855899996037,
+   "commit_s_per_validator": 0.005106159937497523,
+   "tps_sequential": 612.0058984152248,
+   "tps_parallel_est": 9792.094374643597,
+   "block_bytes": 18560
+  },
+  {
+   "N": 16,
+   "f": 5,
+   "batch": 100,
+   "commit_s_sequential": 0.1392210400000522,
+   "commit_s_per_validator": 0.008701315000003262,
+   "tps_sequential": 718.282236650168,
+   "tps_parallel_est": 11492.515786402688,
+   "block_bytes": 36151
+  },
+  {
+   "N": 16,
+   "f": 5,
+   "batch": 250,
+   "commit_s_sequential": 0.3222613460000048,
+   "commit_s_per_validator": 0.0201413341250003,
+   "tps_sequential": 775.76787629999,
+   "tps_parallel_est": 12412.28602079984,
+   "block_bytes": 88858
+  },
+  {
+   "N": 16,
+   "f": 5,
+   "batch": 500,
+   "commit_s_sequential": 0.5991742979999799,
+   "commit_s_per_validator": 0.037448393624998744,
+   "tps_sequential": 834.4817220447877,
+   "tps_parallel_est": 13351.707552716603,
+   "block_bytes": 176769
+  },
+  {
+   "N": 16,
+   "f": 5,
+   "batch": 1000,
+   "commit_s_sequential": 1.1982960039999853,
+   "commit_s_per_validator": 0.07489350024999908,
+   "tps_sequential": 834.5183466037931,
+   "tps_parallel_est": 13352.29354566069,
+   "block_bytes": 352485
+  }
+ ],
+ "merkle": [
+  {
+   "leaves": 100,
+   "build_ms": 0.07163899999795831,
+   "proof_hashes": 7,
+   "proof_bytes": 231,
+   "verify_us_median": 3.0085
+  },
+  {
+   "leaves": 1000,
+   "build_ms": 0.64786500001901,
+   "proof_hashes": 10,
+   "proof_bytes": 330,
+   "verify_us_median": 4.2085
+  },
+  {
+   "leaves": 10000,
+   "build_ms": 6.702382999947076,
+   "proof_hashes": 14,
+   "proof_bytes": 462,
+   "verify_us_median": 5.693
+  },
+  {
+   "leaves": 100000,
+   "build_ms": 73.54594100002032,
+   "proof_hashes": 17,
+   "proof_bytes": 561,
+   "verify_us_median": 6.963
+  }
+ ],
+ "storage": {
+  "events": 1000,
+  "block_bytes": 351895,
+  "bytes_per_event": 351.895
+ },
+ "tamper_detected": true
+}
